@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Персональное Пространство Студента</title>
+<link rel="stylesheet" href="/Users/anger_banger/Desktop/Выше4ка/Html/css.css">
+</head>
+<body>
+<div class="block1">
+    <div class="block12">
+        <div class="head21">
+            <div class="bottomline"></div>
+            <div class="logo">
+                <img src="/Users/anger_banger/Desktop/Выше4ка/Html/hse_logo.jpg" width="100%" height="100%">
+            </div>
+            <div class="heading">
+                <img id="heading" src="/Users/anger_banger/Desktop/Выше4ка/Html/Заголовок.jpg">
+            </div>
+            <div class="logo">
+                <img src="/Users/anger_banger/Desktop/Выше4ка/Html/hse_logo.jpg" width="100%" height="100%">
+            </div>
+        </div>
+        
+        <div class="body21">
+            <div class="text_timetable">
+                <font face="arial"><h1 class="timetable">Расписание. Сентябрь</h1></font>
+            </div>
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                             <div style="height: 100%; background: orange;"> <img src="/Users/anger_banger/Desktop/Выше4ка/Html/Timetable/1-6.09.jpg" width="100%" height="100%"> </div>
+                                </div>
+                                <div class="slider__item">
+                                            <div style="height: 100%; background: green;"><img src="/Users/anger_banger/Desktop/Выше4ка/Html/Timetable/7-12.09.jpg" width="100%" height="100%"></div>
+                                </div>
+                                <div class="slider__item">
+                                             <div style="height: 100%; background: violet;"><img src="/Users/anger_banger/Desktop/Выше4ка/Html/Timetable/14-19.09.jpg" width="100%" height="100%"></div>
+                                </div>
+                                <div class="slider__item">
+                                    <div style="height: 100%; background: coral;"><img src="/Users/anger_banger/Desktop/Выше4ка/Html/Timetable/21-26.09.jpg" width="100%" height="100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+                            <a class="slider__control slider__control_next slider__control_show" href="#" role="button"></a>
+                    </div>
+
+                    <script src="main.js"></script>
+                    <script>
+                    slideShow('.slider', {
+                    isAutoplay: true
+                         });
+                    </script>
+        </div>
+    </div>
+    
+    <div id="mySidenav" class="sidenav">
+       <font face="arial">
+        <a href="#" id="shcedule">Расписание</a>
+        <a href="#" id="Disciplines">Дисциплины</a>
+        <a href="#" id="NotHSEStuff">Внеучебное</a>
+          </font>
+    </div>
+</div>
+
+</body>
+</html>
